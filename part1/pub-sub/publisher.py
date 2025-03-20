@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 from google.cloud import pubsub_v1
 # TODO(developer)
-project_id = "dataeng-gowda-vipulp"
+project_id = "data-processing-system"
 topic_id = "trimet-topics"
 
 publisher = pubsub_v1.PublisherClient()

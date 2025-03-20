@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the directory containing the Python script
-SCRIPT_DIR="/home/vipulp/dataeng-project/"
+SCRIPT_DIR="/home/jathin/data-processing-system/"
 
 # Change directory to the script directory
 cd "$SCRIPT_DIR" || exit

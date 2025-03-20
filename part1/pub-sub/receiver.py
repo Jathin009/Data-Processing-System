@@ -4,7 +4,7 @@ from datetime import datetime
 import os
 import json
 
-project_id="dataeng-gowda-vipulp"
+project_id="data-processing-system"
 subscription_id="trimet-sub-a"
 
 current_date = datetime.now().strftime("%m%d%Y")
@@ -15,7 +15,7 @@ def create_recv_folder_if_not_exists(folder_name):
         os.makedirs(folder_name)
         print(f"Folder '{folder_name}' created successfully.")
 
-current_folder_path = "./home/vipulp/dataeng-project/" + current_folder
+current_folder_path = "./home/jathin/data-processing-system/" + current_folder
 file_name = f'{current_date}.json'
 file_path = current_folder_path + "/"  + file_name
 
