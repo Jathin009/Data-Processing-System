@@ -7,7 +7,7 @@ import os
 import json
 import pandas as pd
 
-project_id = "dataeng-gowda-vipulp"
+project_id = "data-processing-system"
 subscription_id = "trimet-topic-sub"
 
 DBname = "postgres"

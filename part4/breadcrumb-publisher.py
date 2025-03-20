@@ -4,7 +4,7 @@ import asyncio
 import aiohttp
 import json
 
-project_id="dataeng-gowda-vipulp"
+project_id="data-processing-system"
 topic_id="trimet-topic"
 
 publisher = pubsub_v1.PublisherClient()
